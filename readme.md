@@ -26,8 +26,8 @@ Install?
  - Click 'Load unpacked extension...'.
  - Select the TaseMe folder.
 
-  ![how to install][1]
-  [1]: https://github.com/olslash/TaseMe/raw/master/img/howtoload.jpg
+  ![how to install][2]
+  [2]: https://github.com/olslash/TaseMe/raw/master/img/howtoload.jpg
 
 _oh yeah, right now your password is sent as plaintext. OAuth takes longer and I didn't have time. But probably nothing bad will happen._
 
