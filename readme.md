@@ -5,8 +5,7 @@ TaseMe
 Why?
 ----------
 
-Doing a pull request to Taser is a pain in the ass. This makes it Just Work.
-
+Doing a pull request to Taser is a pain in the ass. This makes it Easier.
 Use?
 ----------
 
