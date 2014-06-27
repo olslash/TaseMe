@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Toy Problem Puller",
+  "description": "Easy PR for your toy problems.",
+  "version": "1.0",
+
+  "permissions": [
+    "https://www.github.com/*",
+    "http://www.github.com/*",
+    "https://api.github.com/*",
+    "http://api.github.com/*",
+    "tabs"
+  ],
+  "externally_connectable": {
+    "matches": ["*://*.github.com/*"]
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "puller.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://api.github.com/*"],
+      // "css": ["mystyles.css"],
+      "js": ["lib/jquery-2.1.1.js"]
+    }
+  ]
+}

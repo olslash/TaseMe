@@ -1,0 +1,31 @@
+<html>
+	<body style="background:#99CCFF;">
+		<div id='loginItems'>
+			<form id = 'loginForm'>
+				Github username: <input type="text" name="username" class="username"><br>
+				Github password: <input type="password" name="password" class="password"><br>
+				Pull request title: <input type="text" name="description" class="description"><br>
+				Pull request body: <input type="text" name="body" class="body"><br>
+				<input type="submit" value="Submit" class="submit">
+			</form>
+		</div>
+		<div id='loading' hidden>
+		LOADING...
+		</div>
+		<div id='goofed' hidden>
+		ERROR: YOU DONE GOOFED
+		</div>
+
+
+
+		<script src="lib/jquery-2.1.1.js"></script>
+		<script src="octokit.js/node_modules/es6-promise/dist/promise-0.1.2.js"></script>
+
+		<!-- <script src='octokit.js/index.js'> </script> -->
+		<script src='octokit.js/octokit.js'> </script>
+		<script src='puller.js'> </script>
+
+
+
+	</body>
+</html>
