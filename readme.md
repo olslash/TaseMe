@@ -1,5 +1,3 @@
-ITS BROKEN RIGHT NOW. I didn't do the dependecies right so it only works on my computer. Will update shortly.
-
 TaseMe
 ======
 *A Chrome extension for HR students. Also a 2hr hackathon entry. It works, and it needs work.*
