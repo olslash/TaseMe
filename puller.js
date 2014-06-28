@@ -1,10 +1,10 @@
 (function() {
-
-  var userbox = $('#loginItems').find('.username');
-  var pwbox = $('#loginItems').find('.password');
-  var loginForm = $('#loginItems').find('#loginForm');
-  var prBody = $('#loginItems').find('.body');
-  var prDescription = $('#loginItems').find('.description');
+  var loginItems = $('#loginItems');
+  var userbox = loginItems.find('.username');
+  var pwbox = loginItems.find('.password');
+  var loginForm = loginItems.find('#loginForm');
+  var prBody = loginItems.find('.body');
+  var prDescription = loginItems.find('.description');
   var loading = $('#loading');
   var goofed = $('#goofed');
   var username = '';
@@ -53,11 +53,5 @@
         goofed.attr('hidden', false);
 
       });
-    
-
-
   });
-
-
-
 })();
